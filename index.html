@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+<!--Link de Google fonts: Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1 id="title">User Cards</h1>        
+    </header>
+
+    <main id="main-content">
+     <button id="btn-hide">Mostrar/Ocultar</button>
+        <div id="container" class="container">
+            <div class="card" id="card">
+            </div>
+        </div>
+    </main>
+<br>
+<br>
+<br>
+
+
+<div class="container2">
+    <h1 id="title">Manipulación del DOM</h1>
+    <p>
+        <strong>DOM (Document Object Model)</strong> es una representación estructurada de un document. Cada
+        elemento de la página, desde el título hasta los párrafos y las imágenes, se convierte en un objeto al que
+        JavaScript puede acceder y modificar.
+    </p>
+    <br>
+    <section>
+        <h2>¿Por qué es importante la manipulación del DOM?</h2>
+        <ul>
+            <li>Permite crear páginas web que respondan a las acciones del usuario, como mostrar u ocultar elementos,
+                cambiar el contenido o aplicar estilos.</li>
+            <li>Se pueden desarrollar interfaces de usuario interactivas, donde el usuario se sienta más involucrado.
+            </li>
+            <li>Desarrollo de aplicaciones web de una sola página (SPA), donde todo el contenido se carga en una sola
+                página
+                y se actualiza dinámicamente.</li>
+        </ul>
+        <br>
+        <h2>¿Qué se puede hacer con el DOM?</h2>
+        <ul>
+            <li>Seleccionar elementos del HTML por su ID, clase, etiqueta o cualquier otra característica.</li>
+            <li>Modificar el texto, los atributos o el estilo de los elementos.</li>
+            <li>Crear elementos en el DOM.</li>
+            <li>Eliminar elementos del DOM.</li>
+            <li>Organizar o anidar elementos.</li>
+            <li>Escuchar eventos: Detectar acciones del usuario, como clics, cambios de valor en un formulario, etc., y
+                ejecutar código en respuesta.</li>
+        </ul>
+        <br>
+        <h2>Métodos y propiedades comunes</h2>
+        <ul>
+            <li><strong>getElementById</strong>: Obtiene un elemento por su ID.</li>
+            <li><strong>querySelector</strong>: Selecciona el primer elemento que coincida con un selector CSS.</li>
+            <li><strong>querySelectorAll</strong>: Selecciona todos los elementos que coincidan con un selector CSS.
+            </li>
+            <li><strong>createElement</strong>: Crea un nuevo elemento.</li>
+            <li><strong>appendChild</strong>: Agrega un elemento como hijo de otro.</li>
+            <li><strong>removeChild</strong>: Elimina un elemento hijo.</li>
+            <li><strong>textContent</strong>: Obtiene o establece el contenido de texto de un elemento.</li>
+            <li><strong>innerHTML</strong>: Obtiene o establece el contenido HTML de un elemento.</li>
+            <li><strong>classList</strong>: Maneja las clases de un elemento.</li>
+        </ul>
+    </section>
+</div>
+
+
+
+    <script src="main.js"></script>
+    <script src="card.js"></script>
+</body>
+
+</html>

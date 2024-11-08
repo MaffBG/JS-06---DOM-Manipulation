@@ -1,0 +1,77 @@
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  :root {
+    --bgColor: #E2BBE9;
+    --secondary: #9B86BD;
+    --secondBg: #7776B3;
+    --primary: #5A639C;
+    --textFont: "Poppins", sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 36px;
+    font-family: var(--textFont);
+    color: white;
+    background-color: var(--primary);
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+.btn{
+    padding: 1rem 2.8rem;
+    background: var(--secondBg);
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    color: var(--bgColor);
+    border: 2px solid var(--secondary);
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background: var(--secondary)
+}
+#main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 3rem;
+    row-gap: 3rem;
+    } 
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondBg);
+    border: 2px solid var(--secondary);
+    border-radius: 2rem;
+    padding: 2rem 2rem;
+    cursor: pointer;
+}
+
+.img-container {
+size: 200px;
+}
+
+h3,p{
+    margin-bottom: 0;
+}
+
+.container2 {
+    background-color: #9B86BD;
+    padding: 80px 80px 80px 80px;
+}
