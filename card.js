@@ -1,5 +1,5 @@
 
-const IMAGE_URL = "https://placehold.co/200";
+const IMAGE_URL = "https://placehold.co/400";
 const CARD_CONTAINER = document.getElementById("container");
 const CARD = document.getElementById("img-container");
 const IMG_CONTAINER = document.getElementById("img-container");

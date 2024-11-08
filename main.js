@@ -10,7 +10,7 @@ const users = [
     {
         id: 1,
         username: 'ALI', //User1
-        description: '¡Hola, un gusto! Soy Ali y amo la música clásica',
+        description: '¡Hola! Amo la música clásica',
         age: '46',
         fav_music: {
             bands: [
@@ -21,7 +21,7 @@ const users = [
     {
         id: 2,
         username: 'DANIEL',  //User LastNamr
-        description: '¡Hey, soy Daniel! Soy fan del rock en español',  
+        description: 'Soy fan del rock en español',  
         age: '33',
         fav_music: {
             bands: [
@@ -32,7 +32,7 @@ const users = [
     {
         id: 3,
         username: 'CHEMA',  //User3
-        description: 'Soy Chema y me gusta disfrutar de la cumbia',
+        description: 'Me gusta escuchar la cumbia',
         age: 41,
         fav_music: {
             bands: ['Los Ángeles Azules', 'La Sonora Dinamita', 'Grupo Firme', 'Damas Gratis'],
@@ -40,7 +40,7 @@ const users = [
     }
 ]
 //Constantes globales
-const IMAGE_URL = 'https://static.vecteezy.com/system/resources/previews/005/939/898/non_2x/hear-music-icon-design-of-the-symbol-of-listening-to-music-on-a-smartphone-using-earphones-free-vector.jpg';
+const IMAGE_URL = 'https://placehold.co/400x400';
 const CARD_CONTAINER = document.getElementById('container');
 
 //Botón Mostrar/Ocultar
